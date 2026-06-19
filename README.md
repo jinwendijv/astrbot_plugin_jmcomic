@@ -19,18 +19,22 @@
 
 ### 方式一：手动安装（推荐）
 
-1. 下载 `astrbot_plugin_jmcomic.zip` 并解压到 AstrBot 的 `data/plugins/` 目录
+1. 下载 `astrbot_plugin_jmcomic.zip` 并解压到 AstrBot 的 `data/plugins/` 目录或直接在AstrBot内的插件部分直接添加改压缩包进行安装
 
 2. 安装依赖：
 ```bash
 pip install jmcomic>=2.7.0 pillow>=10.0.0 pyyaml>=6.0
+```
+如果安装失败请参考原项目的依赖来安装,如下...
+```bash
+pip install jmcomic -U
 ```
 
 3. 重启 AstrBot 或在 WebUI 重载插件
 
 ### 方式二：WebUI安装
 
-在 AstrBot WebUI 插件市场中搜索并安装
+在 AstrBot WebUI 插件市场中搜索并安装目前并未上传所以不行hhh
 
 ## ⚙️ 配置（WebUI可视化界面）
 
