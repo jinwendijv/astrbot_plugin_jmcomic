@@ -1,0 +1,7 @@
+name: astrbot_plugin_jmcomic
+display_name: JMComic 禁漫漫画插件
+short_desc: 禁漫漫画搜索、查看、生成PDF并发送
+desc: 集成JMComic-Crawler-Python的AstrBot插件，支持漫画搜索、详情查看、自动生成PDF并发送到群聊，支持群白名单权限控制
+version: 2.2.0
+author: AstrBot Community
+repo: https://github.com/hect0x7/JMComic-Crawler-Python

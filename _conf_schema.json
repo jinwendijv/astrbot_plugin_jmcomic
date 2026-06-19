@@ -1,0 +1,32 @@
+{
+  "enable_whitelist": {
+    "description": "启用群白名单，开启后仅白名单内的群可以使用插件",
+    "type": "bool",
+    "default": false
+  },
+  "group_whitelist": {
+    "description": "群白名单列表，允许使用插件的群ID，每行一个",
+    "type": "list",
+    "default": []
+  },
+  "clean_temp_files": {
+    "description": "自动清理临时文件，发送PDF后自动删除下载的图片缓存",
+    "type": "bool",
+    "default": true
+  },
+  "jm_username": {
+    "description": "JM账号（邮箱/用户名），登录后可下载需要权限的漫画，留空则游客模式",
+    "type": "string",
+    "default": ""
+  },
+  "jm_password": {
+    "description": "JM账号密码",
+    "type": "string",
+    "default": ""
+  },
+  "jm_domain": {
+    "description": "JM站点域名，可切换为 18comic.org 等",
+    "type": "string",
+    "default": "18comic.vip"
+  }
+}
